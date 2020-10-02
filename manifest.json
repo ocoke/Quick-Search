@@ -1,0 +1,44 @@
+{
+    "manifest_version": 2,
+    "name": "Quick-Search",
+    "version": "1.0.0",
+    "description": "选中文字，右键点击进行快速搜索，支持多种搜索引擎.",
+    "icons": {
+        "16": "img/logo-16.png",
+        "48": "img/logo-48.png",
+        "128": "img/logo-128.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js",
+            "log.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": "img/logo-16.png",
+        "default_title": "Quick-Search",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "log.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "webRequestBlocking",
+        "storage",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "homepage_url": "https://c.nptpc.com/project/quick-search/",
+    "omnibox": {
+        "keyword": "quick-search"
+    }
+}
