@@ -15,8 +15,8 @@
 ### 搜索引擎
 - [x] 百度（全球最大的中文搜索引擎）
 - [x] 谷歌（全球最大的搜索引擎）
-- [-] DuckDuckGo
-- [-] DogeDoge
+- [] DuckDuckGo
+- [] DogeDoge
 
 ### 协议
 协议：MIT
