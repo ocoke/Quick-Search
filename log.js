@@ -1,1 +1,1 @@
-console.log("Hi!Welcome to use Quick-Search!")
+console.log("Hi! Welcome to use Quick-Search!")
