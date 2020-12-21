@@ -1,10 +1,15 @@
 ## Quick-Search
 
+<!--
 中文版本 | [英文版本](#)
 
 <p align="center">
 <a title="GitHub Stars" target="_blank" href="https://github.com/oCoke/Quick-Search/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/oCoke/Quick-Search.svg?label=Stars&style=social"></a>  
 </p>
+
+-->
+
+> 本项目功能极少，请期待未来的某一天重构！
 
 ### 使用方法
 
